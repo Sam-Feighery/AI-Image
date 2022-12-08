@@ -61,6 +61,7 @@ body {
   color: #333;
   text-align: center;
   padding: 1rem 0;
+  width: 100%;
 }
 
 .showcase form {
@@ -74,9 +75,10 @@ body {
 
 .showcase form input,
 form select {
-  font-size: 20px;
-  width: 500px;
-  max-width: 500px;
+  font-size: 15px;
+  width: 100%;
+  max-width: 100%;
+  align-items: center;
   padding: 1rem;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -114,4 +116,12 @@ img {
   font-size: 1.6rem;
   text-align: center;
   margin-top: 1rem;
+}
+
+@media (max-width: 360px) {
+  body {
+    font-size: 1.0em;
+    display: block;
+    width: 45%;
+  }
 }
