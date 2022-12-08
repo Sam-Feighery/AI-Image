@@ -124,4 +124,8 @@ img {
     display: block;
     width: 45%;
   }
+
+  .image {
+    width: 1vw;
+  }
 }
